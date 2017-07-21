@@ -1,3 +1,5 @@
 # projet
-projet d groupe hardware
+projet de groupe hardware
 ...
+
+fichier read me
