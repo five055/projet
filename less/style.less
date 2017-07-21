@@ -1,0 +1,82 @@
+// out: ../css/style.css, compress: true
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #FBFEEF;
+}
+
+hgroup h1{
+  position: relative;
+  font-family: 'Baloo', cursive;
+  animation: group .5s linear 1;
+}
+
+@keyframes group {
+  from {top : -100px;}
+  to {top : 0px;}
+}
+
+hgroup h2{
+  position: relative;
+  font-family: 'Baloo', cursive;
+  animation: group2 1s linear 1;
+}
+
+@keyframes group2 {
+  from {right : -100px;}
+  to {right : 0px;}
+}
+
+#anime{
+  position: relative;
+  animation: image 1s linear 1
+}
+@keyframes image {
+  from {left : -100px;}
+  to {left : 0px;}
+}
+
+.glyphicon-search{
+  color: darken(#ddd,15%);
+}
+
+.ion-android-lock{
+  font-size: 1.3em;
+}
+
+.logo {
+  margin-top: 1.5em;
+}
+.panel{
+  margin-left: 3px;
+  margin-right: 3px;
+  img{
+    max-height: 200px;
+    display: block;
+    margin: auto;
+  }
+}
+.row{
+  display: flex;
+}
+
+
+footer{
+  background-color: #FFD090;
+  opacity: .9;
+  p{
+    text-align: center;
+  }
+}
+table
+{
+  background-color: #FFD090;
+  opacity: .9;
+}
+.obligatoire::after
+{font-size: 1.5em;
+  color: red;
+  content: '*';
+}
